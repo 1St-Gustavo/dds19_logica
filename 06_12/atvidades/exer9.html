@@ -6,18 +6,16 @@
 
     <script>
 
-    const numeros = []
-    let numero
-    for(let i = 0; i < 10; i++){
-        const numeros = parseInt(prompt("Digite um numero inteiro:"))
-        numeros.push(numero)
-    }
+        let arr=[]
+        let soma=0
 
-    let soma = 0
-    for (const numero of numeros){
-        soma += numeros
-    }
-    console.log('A soma dos numeros é: ${soma}')
+        for(c=0;c<10;c++){
+            arr[c]=Number(prompt("digite um numero:"))
+            soma+=arr[c]
+
+        }
+        console.log("A soma desses nuemros é: ",soma)
+        alert("A soma desses nuemros é: "+soma)
     
         
     </script>
